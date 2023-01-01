@@ -1,0 +1,29 @@
+body {
+  position: relative;
+  color: aliceblue;
+}
+h1 {
+  text-align: center;
+}
+.my_name {
+  color: rgb(218, 9, 9);
+}
+.background_Img {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  position: relative;
+  top: 0;
+  left: 0px;
+  padding: 0;
+  height: 1060px;
+  width: 1920px;
+  opacity: 0.9;
+  color: aliceblue;
+}
+a {
+  color: rgb(95, 162, 203);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 10px;
+}
