@@ -1,9 +1,14 @@
 body {
   position: relative;
   color: aliceblue;
+  object-fit: contain;
 }
 h1 {
   text-align: center;
+}
+h3 {
+  color: yellow;
+  font-size: 25px;
 }
 .my_name {
   color: rgb(218, 9, 9);
@@ -16,12 +21,13 @@ h1 {
   left: 0px;
   padding: 0;
   height: 1060px;
-  width: 1920px;
-  opacity: 0.9;
+  width: 1500px;
+  opacity: 1;
   color: aliceblue;
+  padding-right: 20px;
 }
 a {
-  color: rgb(95, 162, 203);
+  color: rgb(51, 95, 161);
   text-decoration: none;
   font-size: 20px;
   font-weight: bolder;
