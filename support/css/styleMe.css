@@ -1,6 +1,6 @@
 body {
   position: relative;
-  color: aliceblue;
+  color: rgb(255, 255, 255);
   object-fit: contain;
 }
 h1 {
@@ -11,7 +11,7 @@ h3 {
   font-size: 25px;
 }
 .my_name {
-  color: rgb(218, 9, 9);
+  color: rgb(204, 8, 8);
 }
 .background_Img {
   background-color: rgba(0, 0, 0, 0.6);
@@ -24,12 +24,29 @@ h3 {
   width: 1500px;
   opacity: 1;
   color: aliceblue;
-  padding-right: 20px;
 }
-a {
-  color: rgb(51, 95, 161);
+.linksInNav {
+  color: rgb(252, 252, 252);
   text-decoration: none;
   font-size: 20px;
   font-weight: bolder;
   margin: 10px;
+}
+.navBar {
+  text-align: right;
+  margin-right: 70px;
+  margin-bottom: 20px;
+}
+.headPart {
+  margin-top: 40px;
+}
+
+.progress {
+  background-color: #7ca084;
+  height: 10px;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #1cb540;
 }
