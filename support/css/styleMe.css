@@ -83,3 +83,10 @@ p {
   width: 50%;
   padding: 15px;
 }
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bolder;
+  text-decoration: underline dashed;
+}
