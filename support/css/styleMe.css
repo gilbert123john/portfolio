@@ -4,7 +4,9 @@ body {
   object-fit: contain;
 }
 h1 {
-  text-align: center;
+  /* text-align: left; */
+  float: left;
+  margin-left: 50px;
 }
 h3 {
   color: yellow;
@@ -34,11 +36,15 @@ h3 {
 }
 .navBar {
   text-align: right;
-  margin-right: 70px;
+  margin-left: 550px;
   margin-bottom: 20px;
+  float: left;
+  /* background-color: #1cb540; */
 }
 .headPart {
   margin-top: 40px;
+  display: inline-block;
+  position: relative;
 }
 
 .progress {
