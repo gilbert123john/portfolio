@@ -1,0 +1,54 @@
+composer create-project laravel/laravel exam
+
+// create a db in myAdmin
+//inside  .env give DB_DATABASE name
+//create pages in blade.php
+
+// web.php give controller name top
+Route::get('/login', function () {
+    return view('loginPage');
+});
+
+
+
+php artisan make:model register -a
+//model , db, controler
+
+// web.php gv controller root
+Route::post('/register',[registerController::class,'store']);
+
+
+// go to controller gv model root and inside store
+public function store(Request $request)
+    {
+        //return $request->input();
+        $request->validate([
+            'username'=> 'required',
+            'password'=> 'required|min:8'
+        ]);
+
+        $app = new loginModel;
+        $app->username=$request->username;
+        $app->password=$request->password;
+
+        $save=$app->save();
+        return view('welcome');
+    }
+//inside migration pages
+
+public function up(): void
+    {
+        Schema::create('registers', function (Blueprint $table) {
+            $table->id();
+            $table->string('name');
+            $table->string('age');
+            $table->string('phone');
+            $table->string('password');
+            $table->timestamps();
+        });
+    }
+
+-> php artisan migrate
+
+
+
